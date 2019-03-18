@@ -20,25 +20,26 @@
 
     <body>
         
-        <header>
-            <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
-            <ul class="menu">
-                <li>menuItem</li>
-                <li>menuItem</li>
-                <li>menuItem</li>
-                <li>menuItem</li>
-                <li>menuItem</li>
-            </ul>
-        </header>
+        <div id="all">
+            <header>
+                <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
+                <ul class="menu">
+                    <li>menuItem</li>
+                    <li>menuItem</li>
+                    <li>menuItem</li>
+                    <li>menuItem</li>
+                    <li>menuItem</li>
+                </ul>
+            </header>
 
-        <div id="content">
-            all content
+            <div id="content">
+                all content
+            </div>
+
+            <footer>
+                footer
+            </footer>
         </div>
-
-        <footer>
-            footer
-        </footer>
-
         <script>
              // Проверка на поддержку service worker
             if('serviceWorker' in navigator) {
