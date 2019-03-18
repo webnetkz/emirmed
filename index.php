@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
-        <title>title</title>
+        <title>Emirmed</title>
 
         <meta charset="UTF-8">
-        <meta name="theme-color" content="rgb(0, 173, 239)">
-        <meta name="author" content="TOO WebNet">
-        <meta name="description" content="RetactorPhoto by WebNet">
-        <meta name="keywords" content="RedactorPhoto">
+        <meta name="theme-color" content="rgb(255, 255, 255)">
+        <meta name="author" content="Emirmed">
+        <meta name="description" content="Emirmed">
+        <meta name="keywords" content="Emirmed">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="index, follow">
 
-        <link rel="shortcut icon" href="/public/images/miniLogoWebnet.png" type="image/png">
+        <link rel="shortcut icon" href="/public/img/miniLogoEmirmed.png" type="image/png">
         <link rel="stylesheet" href="/public/styles/style.css">
         <link rel="stylesheet" href="/public/styles/mobileStyle.css">
         <link rel="manifest" href="/manifest.json">

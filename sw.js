@@ -6,8 +6,9 @@ self.addEventListener('install', function(e) {
    caches.open('title').then(function(cache) {
      return cache.addAll([
        '/',
-       '/index.html',
-       '/miniLogoWebnet.png',
+       '/index.php',
+       '/public/img/miniLogoEmirmed.png',
+       '/public/img/logoEmirmed.png',
        '/public/scripts/main.js',
        '/public/styles/style.css',
        'public/styles/mobileStyle.css'
