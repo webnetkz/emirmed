@@ -1,3 +1,11 @@
-@media only screen and (max-width: 900px;) {
+@media only screen and (max-width: 1024px) {
+    ul.menuHeader {
+        visibility: hidden;
+    }
 
+    img.logotype {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
 }
