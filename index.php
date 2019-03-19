@@ -25,13 +25,37 @@
                 <a href="#">
                     <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
                 </a>
-                <ul class="menu">
-                    <li>Услуги</li>
-                    <li>Цены</li>
-                    <li>Врачи</li>
-                    <li>Клиника</li>
-                    <li>Новости</li>
-                    <li>Контакты</li>
+                <ul class="menuHeader">
+                    <li>
+                        <a href="uslugi.php" class="menuLink">
+                            Услуги
+                        </a>
+                    </li>
+                    <li>
+                        <a href="price.php" class="menuLink">
+                            Цены
+                        </a>
+                    </li>
+                    <li>
+                        <a href="doctors.php" class="menuLink">
+                            Врачи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="clinik.php" class="menuLink">
+                            Клиника
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news.php" class="menuLink">
+                            Новости
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.php" class="menuLink">
+                            Контакты
+                        </a>
+                    </li>
                 </ul>
             </header>
 
@@ -40,10 +64,48 @@
             </div>
 
             <footer>
-                footer
+                <a href="#">
+                    <img src="/public/img/logoEmirmed.png" alt="logotype emirmed" class="footerLogotype">
+                </a>
+                <ul class="menuFooter">
+                    <li>
+                        <a href="uslugi.php" class="menuLink">
+                            Услуги
+                        </a>
+                    </li>
+                    <li>
+                        <a href="price.php" class="menuLink">
+                            Цены
+                        </a>
+                    </li>
+                    <li>
+                        <a href="doctors.php" class="menuLink">
+                            Врачи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="clinik.php" class="menuLink">
+                            Клиника
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news.php" class="menuLink">
+                            Новости
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.php" class="menuLink">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+                <p class="date">
+                    © 2019 Все права защищены.
+                    <a href="#" class="indexLink">Emirmed</a>
+                </p>
             </footer>
         </div>
-        
+
         <script>
              // Проверка на поддержку service worker
             if('serviceWorker' in navigator) {
