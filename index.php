@@ -69,32 +69,32 @@
                 </a>
                 <ul class="menuFooter">
                     <li>
-                        <a href="uslugi.php" class="menuLink">
+                        <a href="uslugi.php" class="menuLink footerMenuItem">
                             Услуги
                         </a>
                     </li>
                     <li>
-                        <a href="price.php" class="menuLink">
+                        <a href="price.php" class="menuLink footerMenuItem">
                             Цены
                         </a>
                     </li>
                     <li>
-                        <a href="doctors.php" class="menuLink">
+                        <a href="doctors.php" class="menuLink footerMenuItem">
                             Врачи
                         </a>
                     </li>
                     <li>
-                        <a href="clinik.php" class="menuLink">
+                        <a href="clinik.php" class="menuLink footerMenuItem">
                             Клиника
                         </a>
                     </li>
                     <li>
-                        <a href="news.php" class="menuLink">
+                        <a href="news.php" class="menuLink footerMenuItem">
                             Новости
                         </a>
                     </li>
                     <li>
-                        <a href="contact.php" class="menuLink">
+                        <a href="contact.php" class="menuLink footerMenuItem">
                             Контакты
                         </a>
                     </li>
