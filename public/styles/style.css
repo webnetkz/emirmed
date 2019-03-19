@@ -80,6 +80,7 @@ footer {
 ul.menuFooter {
     display: inline-block;
     list-style: none;
+    margin-left: 1em;
 }
 
 ul.menuFooter > a {
