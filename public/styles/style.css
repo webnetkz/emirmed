@@ -40,7 +40,7 @@ ul.menu > li {
     display: inline;
 }
 
-/* MIDLE STYLE*/
+/* CONTENT STYLE*/
 
 div#content {
     flex: 1 0 auto;
@@ -51,8 +51,8 @@ div#content {
 /* FOOTER STYLE*/
 
 footer {
+    height: 6em;
     flex: 0 0 auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(97, 97, 97);
     color: rgb(255, 255, 255);
-    text-align: center;
 }

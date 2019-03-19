@@ -22,13 +22,16 @@
         
         <div id="all">
             <header>
-                <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
+                <a href="#">
+                    <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
+                </a>
                 <ul class="menu">
-                    <li>menuItem</li>
-                    <li>menuItem</li>
-                    <li>menuItem</li>
-                    <li>menuItem</li>
-                    <li>menuItem</li>
+                    <li>Услуги</li>
+                    <li>Цены</li>
+                    <li>Врачи</li>
+                    <li>Клиника</li>
+                    <li>Новости</li>
+                    <li>Контакты</li>
                 </ul>
             </header>
 
@@ -40,6 +43,7 @@
                 footer
             </footer>
         </div>
+        
         <script>
              // Проверка на поддержку service worker
             if('serviceWorker' in navigator) {
