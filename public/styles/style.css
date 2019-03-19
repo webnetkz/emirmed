@@ -78,11 +78,25 @@ footer {
 }
 
 ul.menuFooter {
+    display: inline-block;
     list-style: none;
 }
 
+ul.menuFooter > a {
+    display: inline;
+}
+
+ul.menuFooter > li {
+    display: inline;
+    line-height: 6em;
+}
+
 p.date {
+    position: absolute;
     font-size: 0.5em;
+    margin-top: -1.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
     
 a.indexLink {
