@@ -118,13 +118,13 @@ img.footerLogotype {
 div#social {
     display: inline-block;
     position: relative;
-    left: 50%;
+    left: 30%;
     top: 1em;
 }
 
 img.social {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     transition-duration: 300ms;
 }
 
