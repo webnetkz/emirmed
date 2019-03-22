@@ -27,32 +27,32 @@
                 </a>
                 <ul class="menuHeader">
                     <li>
-                        <a href="uslugi.php" class="menuLink">
+                        <a href="/pages/uslugi.php" class="menuLink">
                             Услуги
                         </a>
                     </li>
                     <li>
-                        <a href="price.php" class="menuLink">
+                        <a href="/pages/price.php" class="menuLink">
                             Цены
                         </a>
                     </li>
                     <li>
-                        <a href="doctors.php" class="menuLink">
+                        <a href="/pages/doctors.php" class="menuLink">
                             Врачи
                         </a>
                     </li>
                     <li>
-                        <a href="clinik.php" class="menuLink">
+                        <a href="/pages/clinik.php" class="menuLink">
                             Клиника
                         </a>
                     </li>
                     <li>
-                        <a href="news.php" class="menuLink">
+                        <a href="/pages/news.php" class="menuLink">
                             Новости
                         </a>
                     </li>
                     <li>
-                        <a href="contact.php" class="menuLink">
+                        <a href="/pages/contact.php" class="menuLink">
                             Контакты
                         </a>
                     </li>
@@ -188,32 +188,32 @@
                 </a>
                 <ul class="menuFooter">
                     <li>
-                        <a href="uslugi.php" class="menuLink footerMenuItem">
+                        <a href="/pages/uslugi.php" class="menuLink footerMenuItem">
                             Услуги
                         </a>
                     </li>
                     <li>
-                        <a href="price.php" class="menuLink footerMenuItem">
+                        <a href="/pages/price.php" class="menuLink footerMenuItem">
                             Цены
                         </a>
                     </li>
                     <li>
-                        <a href="doctors.php" class="menuLink footerMenuItem">
+                        <a href="/pages/doctors.php" class="menuLink footerMenuItem">
                             Врачи
                         </a>
                     </li>
                     <li>
-                        <a href="clinik.php" class="menuLink footerMenuItem">
+                        <a href="/pages/clinik.php" class="menuLink footerMenuItem">
                             Клиника
                         </a>
                     </li>
                     <li>
-                        <a href="news.php" class="menuLink footerMenuItem">
+                        <a href="/pages/news.php" class="menuLink footerMenuItem">
                             Новости
                         </a>
                     </li>
                     <li>
-                        <a href="contact.php" class="menuLink footerMenuItem">
+                        <a href="/pages/contact.php" class="menuLink footerMenuItem">
                             Контакты
                         </a>
                     </li>
