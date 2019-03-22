@@ -223,7 +223,20 @@
                     <a href="#" class="indexLink">Emirmed</a>
                 </p>
                 <div id="footerContact">
-                    <p class="footerContact">123</p>
+                        <h3 class="contactHeader">Контакты:</h3>
+                    <hr class="footer">
+                        <p class="contactFooter">
+                            <img src="/public/img/contact/support.png" alt="support icons" class="contactImg">
+                            +7 707 555 0578
+                        </p>
+                        <p class="address">
+                            <img src="/public/img/contact/offices.png" alt="hours icons" class="contactImg" style="height: 2em;">
+                            г. Алматы, Манаса 59
+                        </p>                                
+                        <p class="contactFooter">
+                            <img src="/public/img/contact/email.png" alt="email icons" class="contactImg">
+                            emirmed@mail.ru
+                        </p>
                 </div>
             </footer>
         </div>
