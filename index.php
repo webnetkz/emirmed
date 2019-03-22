@@ -218,15 +218,13 @@
                         </a>
                     </li>
                 </ul>
-                <div id="social">
-                    <img src="/public/img/social/instagram.png" alt="instagramm icon" class="social">
-                    <img src="/public/img/social/facebook.png" alt="facebook icon" class="social">
-                    <img src="/public/img/social/whatsapp.png" alt="whatsapp icon" class="social">
-                </div>
                 <p class="date">
                     © 2019 Все права защищены.
                     <a href="#" class="indexLink">Emirmed</a>
                 </p>
+                <div id="footerContact">
+                    <p class="footerContact">123</p>
+                </div>
             </footer>
         </div>
 
