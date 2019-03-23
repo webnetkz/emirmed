@@ -25,6 +25,7 @@ header {
     width: 100%;
     height: 3em;
     box-shadow: 0 0 5px rgb(0, 0, 0);
+    background-color: rgb(255, 255 ,255);
 }
 
 a > img.logotype {
@@ -65,7 +66,7 @@ a.menuLink:hover {
 div#content {
     flex: 1 0 auto;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 5em;
 }
     
 /* FOOTER STYLE*/
@@ -150,4 +151,9 @@ img.contactImg {
 hr.footer {
     border-radius: 50%;
     border-block-end-color: green;
+}
+
+/* STYLE FOR CONTACT*/
+iframe {
+    width: 100%;
 }
