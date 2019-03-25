@@ -37,8 +37,9 @@ div.blockLogo {
     transform: rotate(45deg);
     box-shadow: 0 0 20px rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 5px;
     border-bottom-right-radius: 50%;
+    transition-duration: 500ms;
 }
 
 a > img.logotype {
@@ -81,9 +82,14 @@ a.menuLink:hover {
 div#content {
     flex: 1 0 auto;
     text-align: center;
-    margin-top: 5em;
+    margin-top: 3em;
 }
-    
+
+div#slider {
+    width: 100%;
+    height: 100%;
+    transition-duration: 500ms;
+}
 /* FOOTER STYLE*/
     
 footer {

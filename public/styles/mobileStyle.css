@@ -16,4 +16,12 @@
     h3.contactHeader {
         visibility: hidden;
     }
+
+    div.blockLogo {
+        left: 35%;
+    }
+
+    a > img.logotype {
+        transform: translate(-50%, 0);
+    }
 }

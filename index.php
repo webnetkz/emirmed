@@ -15,8 +15,6 @@
         <link rel="stylesheet" href="/public/styles/style.css">
         <link rel="stylesheet" href="/public/styles/mobileStyle.css">
         <link rel="manifest" href="/manifest.json">
-        
-        <script src="/public/scripts/bgSlider.js"></script>
 
     </head>
 
@@ -70,125 +68,10 @@
 
             <div id="content">
 
-                <pre>
+                <div id="slider">
 
+                </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </pre>
             </div>
 
             <footer>
@@ -214,6 +97,41 @@
             </footer>
         </div>
 
+
+        <script>
+            // START SLIDER DESKTOP
+
+            var bg = document.querySelector('#slider');
+
+            function next() {
+                setTimeout(function() {
+                    bg.style.cssText =
+                    `background: url(/public/img/slider/1.jpg) no-repeat;
+                    background-size: 100%;
+                    height: 100%;`;
+                }, 2000);
+
+                setTimeout(function() {
+                    bg.style.cssText =
+                    `background: url(/public/img/slider/2.jpg) no-repeat;
+                    background-size: 100%;
+                    height: 100%;`;
+                }, 5000);
+
+                setTimeout(function() {
+                    bg.style.cssText =
+                    `background: url(/public/img/slider/3.jpg) no-repeat;
+                        background-size: 100%;
+                        height: 100%;`;
+                }, 8000);
+            }
+
+            next();
+
+            setInterval(next, 10000);
+
+            // END SLIDER DESKTOP
+        </script>
         <script>
              // Проверка на поддержку service worker
             if('serviceWorker' in navigator) {
