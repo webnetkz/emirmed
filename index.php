@@ -16,20 +16,20 @@
         <link rel="stylesheet" href="/public/styles/mobileStyle.css">
         <link rel="manifest" href="/manifest.json">
         
+        <script src="/public/scripts/bgSlider.js"></script>
+
     </head>
 
     <body>
         
         <div id="all">
             <header>
-                <div class="blockLogo">
-                    <a href="#">
-                        <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
-                    </a>
-                </div>
-
-
                 <ul class="menuHeader">
+                    <li>
+                        <a href="#" class="menuLink">
+                            Главная
+                        </a>
+                    </li>
                     <li>
                         <a href="/pages/uslugi.php" class="menuLink">
                             Услуги
@@ -61,6 +61,11 @@
                         </a>
                     </li>
                 </ul>
+                <div class="blockLogo">
+                    <a href="#">
+                        <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
+                    </a>
+                </div>
             </header>
 
             <div id="content">

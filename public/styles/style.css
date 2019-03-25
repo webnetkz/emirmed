@@ -51,7 +51,7 @@ ul.menuHeader {
     position: absolute;
     display: inline-block;
     top: 0;
-    left: 0;
+    left: 5%;
     line-height: 3em;
     list-style: none;
 }
