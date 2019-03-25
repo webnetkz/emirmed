@@ -102,7 +102,14 @@
         </div>
 
 
-
+        <script>
+             // Проверка на поддержку service worker
+            if('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('/sw.js')
+                    .then(function() { console.log("Service Worker Registered"); });
+            }
+        </script>
         <script>
             // START SLIDER DESKTOP
 
@@ -136,14 +143,6 @@
             setInterval(next, 10000);
 
             // END SLIDER DESKTOP
-        </script>
-        <script>
-             // Проверка на поддержку service worker
-            if('serviceWorker' in navigator) {
-                navigator.serviceWorker
-                    .register('/sw.js')
-                    .then(function() { console.log("Service Worker Registered"); });
-            }
         </script>
         <script src="/public/scripts/main.js"></script>
     </body>
