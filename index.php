@@ -67,11 +67,9 @@
             </header>
 
             <div id="content">
-
                 <div id="slider">
 
                 </div>
-
             </div>
 
             <footer>
