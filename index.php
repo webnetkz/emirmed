@@ -107,21 +107,21 @@
             function next() {
                 setTimeout(function() {
                     bg.style.cssText =
-                    `background: url(/public/img/slider/1.jpg) no-repeat;
+                    `background: url(/slider/1.jpg) no-repeat;
                     background-size: 100%;
                     height: 100%;`;
-                }, 2000);
+                }, 500);
 
                 setTimeout(function() {
                     bg.style.cssText =
-                    `background: url(/public/img/slider/2.jpg) no-repeat;
+                    `background: url(/slider/2.jpg) no-repeat;
                     background-size: 100%;
                     height: 100%;`;
                 }, 5000);
 
                 setTimeout(function() {
                     bg.style.cssText =
-                    `background: url(/public/img/slider/3.jpg) no-repeat;
+                    `background: url(/slider/3.jpg) no-repeat;
                         background-size: 100%;
                         height: 100%;`;
                 }, 8000);
