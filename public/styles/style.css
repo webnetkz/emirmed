@@ -71,12 +71,51 @@ a.menuLink {
 }
 
 a.menuLink:hover {
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 233, 0);
     color: rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
-    
+
+p.headerPhone {
+    display: inline-block;
+    margin-left: 60%;
+    line-height: 3em;
+    animation: phoneAn 2100ms;
+}
+
+@keyframes phoneAn{
+    0% {
+        margin-left: -10%;
+    }
+
+    100% {
+        margin-left: 60%;
+    }
+}
+
+p.hoursTime {
+    display: inline;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgb(0, 233, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    animation: hoursTime 1000ms infinite;
+}
+
+@keyframes hoursTime {
+    0% {
+        background-color: rgb(0, 233, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        background-color: rgb(255, 255 ,255);
+        color: rgb(0, 233, 0);
+    }
+}
+
 /* CONTENT STYLE*/
     
 div#content {
