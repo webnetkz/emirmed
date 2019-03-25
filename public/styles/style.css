@@ -28,15 +28,30 @@ header {
     background-color: rgb(255, 255 ,255);
 }
 
+div.blockLogo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -10px;
+    left: 90%;
+    transform: rotate(45deg);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-bottom-right-radius: 50%;
+}
+
 a > img.logotype {
-    height: 3em;
-    width: 3em;
+    height: 90px;
+    width: 90px;
+    transform: rotate(-45deg);
 }
     
 ul.menuHeader {
     position: absolute;
     display: inline-block;
     top: 0;
+    left: 0;
     line-height: 3em;
     list-style: none;
 }
@@ -135,6 +150,7 @@ div#footerEnd {
 }
 
 h3.contactHeader {
+    font-size: 0.8em;
     text-align: center;
 }
 

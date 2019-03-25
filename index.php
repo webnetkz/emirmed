@@ -22,9 +22,13 @@
         
         <div id="all">
             <header>
-                <a href="#">
-                    <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
-                </a>
+                <div class="blockLogo">
+                    <a href="#">
+                        <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
+                    </a>
+                </div>
+
+
                 <ul class="menuHeader">
                     <li>
                         <a href="/pages/uslugi.php" class="menuLink">
