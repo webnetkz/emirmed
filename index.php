@@ -21,7 +21,7 @@
     </head>
 
     <body>
-    <script src="preloader.js"></script>
+
         <div id="all">
             <header>
                 <ul class="menuHeader">
@@ -81,7 +81,7 @@
             <footer>
 
                     <div id="footerStart">
-                            <h3 class="contactHeader">Навигация по сайта:</h3>
+                            <h3 class="contactHeader">Навигация по сайту:</h3>
                         <hr class="footer">
                     </div>
 
