@@ -116,7 +116,16 @@ img.footerLogotype {
     transform: translate(-50%, 0);
 }
 
-div#footerContact {
+div#footerStart {
+    display: block;
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 5em;
+    padding: 0.5em;
+}
+
+div#footerEnd {
     display: block;
     position: relative;
     float: right;
@@ -127,25 +136,6 @@ div#footerContact {
 
 h3.contactHeader {
     text-align: center;
-}
-
-p.contactFooter {
-    display: inline-block;
-    line-height: 2em;
-}
-
-p.address {
-    vertical-align: middle;
-    margin-right: 10px;
-    margin-top: 20px;
-    float: right;
-}
-
-img.contactImg {
-    margin-left: 10px;
-    margin-right: 5px;
-    height: 1.3em;
-    vertical-align: middle;
 }
 
 hr.footer {

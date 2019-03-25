@@ -183,6 +183,12 @@
             </div>
 
             <footer>
+
+                    <div id="footerStart">
+                            <h3 class="contactHeader">Навигация по сайта:</h3>
+                        <hr class="footer">
+                    </div>
+
                 <a href="#">
                     <img src="/public/img/logoEmirmed.png" alt="logotype emirmed" class="footerLogotype">
                 </a>
@@ -190,11 +196,12 @@
                     © 2019 Все права защищены.
                     <a href="#" class="indexLink">Emirmed</a>
                 </p>
-                <div id="footerContact">
-                        <h3 class="contactHeader">Контакты:</h3>
-                    <hr class="footer">
 
-                </div>
+                    <div id="footerEnd">
+                            <h3 class="contactHeader">Контакты:</h3>
+                        <hr class="footer">
+                    </div>
+
             </footer>
         </div>
 
