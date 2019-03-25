@@ -16,10 +16,12 @@
         <link rel="stylesheet" href="/public/styles/mobileStyle.css">
         <link rel="manifest" href="/manifest.json">
 
+
+
     </head>
 
     <body>
-        
+    <script src="preloader.js"></script>
         <div id="all">
             <header>
                 <ul class="menuHeader">
@@ -94,6 +96,7 @@
 
             </footer>
         </div>
+
 
 
         <script>
