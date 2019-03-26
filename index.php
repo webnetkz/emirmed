@@ -24,6 +24,7 @@
 
         <div id="all">
             <header>
+                
                 <ul class="menuHeader">
                     <li>
                         <a href="#" class="menuLink">
@@ -67,11 +68,11 @@
                         <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
                     </a>
                 </div>
+
             </header>
 
             <div id="content">
                 <div id="slider">
-
                 </div>
             </div>
 
