@@ -62,9 +62,6 @@
                     </li>
                 </ul>
 
-                    <p class="headerPhone">+7 707 555 0578</p>
-                    <p class="hoursTime">Круглосуточно</p>
-
                 <div class="blockLogo">
                     <a href="#">
                         <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
