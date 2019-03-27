@@ -85,6 +85,66 @@ div#content {
     margin-top: 3em;
 }
 
+div.circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(207, 79, 20);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+div.circle:hover {
+
+}
+
+div.One {
+    left: 4%;
+    top: 20%;
+    height: 120px;
+    width: 120px;
+}
+
+div.Two {
+    left: 15%;
+    top: 20%;
+}
+
+div.Three {
+    left: 25%;
+    top: 20%;
+    height: 190px;
+    width: 190px;
+}
+
+div.Four {
+    left: 17%;
+    top: 40%;
+    height: 130px;
+    width: 130px;
+}
+
+div.Five {
+    left: 35%;
+    top: 8%;
+    height: 150px;
+    width: 150px;
+}
+
+div.Six {
+    left: 50%;
+    top: 24%;
+    height: 200px;
+    width: 200px;
+}
+
+div.Seven {
+    left: 40%;
+    top: 30%;
+    height: 170px;
+    width: 170px;
+}
+
 /* FOOTER STYLE*/
     
 footer {
