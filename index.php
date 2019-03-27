@@ -6,8 +6,12 @@
         <meta charset="UTF-8">
         <meta name="theme-color" content="rgb(255, 255, 255)">
         <meta name="author" content="Emirmed">
-        <meta name="description" content="Emirmed">
-        <meta name="keywords" content="Emirmed">
+        <meta name="description" content="Медицинский центр Emirmed, режим работы круглосуточно без выходных и праздников.">
+        <meta name="keywords" content="УЗИ круглосуточно,
+        уролог круглосуточно,
+        гинеколог круглосуточно,
+        анализы круглосуточно,
+        ЛОР круглосуточно">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="index, follow">
 
@@ -16,13 +20,12 @@
         <link rel="stylesheet" href="/public/styles/mobileStyle.css">
         <link rel="manifest" href="/manifest.json">
 
-
-
     </head>
 
     <body>
 
         <div id="all">
+
             <header>
                 
                 <ul class="menuHeader">
@@ -72,8 +75,7 @@
             </header>
 
             <div id="content">
-                <div id="slider">
-                </div>
+
             </div>
 
             <footer>
@@ -97,7 +99,8 @@
                     </div>
 
             </footer>
-        </div>
+
+        </div> <!-- END DIV #ALL-->
 
 
         <script>
@@ -107,40 +110,6 @@
                     .register('/sw.js')
                     .then(function() { console.log("Service Worker Registered"); });
             }
-        </script>
-        <script>
-            // START SLIDER DESKTOP
-
-            var bg = document.querySelector('#slider');
-
-            function next() {
-                setTimeout(function() {
-                    bg.style.cssText =
-                    `background: url(/slider/1.jpg) no-repeat;
-                    background-size: 100%;
-                    height: 100%;`;
-                }, 0);
-
-                setTimeout(function() {
-                    bg.style.cssText =
-                    `background: url(/slider/2.jpg) no-repeat;
-                    background-size: 100%;
-                    height: 100%;`;
-                }, 5000);
-
-                setTimeout(function() {
-                    bg.style.cssText =
-                    `background: url(/slider/3.jpg) no-repeat;
-                        background-size: 100%;
-                        height: 100%;`;
-                }, 8000);
-            }
-
-            next();
-
-            setInterval(next, 10000);
-
-            // END SLIDER DESKTOP
         </script>
         <script src="/public/scripts/main.js"></script>
     </body>
