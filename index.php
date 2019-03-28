@@ -76,15 +76,7 @@
 
             <div id="content">
 
-                <div class="circle One">
-                    <p style="padding: 40% 40%;">123</p>
-                </div>
-                <div class="circle Two"></div>
-                <div class="circle Three"></div>
-                <div class="circle Four"></div>
-                <div class="circle Five"></div>
-                <div class="circle Six"></div>
-                <div class="circle Seven"></div>
+
 
             </div>
 
