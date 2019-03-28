@@ -9,19 +9,19 @@
         transform: translate(-50%, 0);
     }
 
-    hr.footer {
-        visibility: hidden;
-    }
-
-    h3.contactHeader {
-        visibility: hidden;
-    }
-
     div.blockLogo {
         left: 35%;
     }
 
     a > img.logotype {
         transform: translate(-50%, 0);
+    }
+
+    #footerStart {
+        visibility: hidden;
+    }
+
+    #footerEnd {
+        visibility: hidden;
     }
 }
