@@ -1,3 +1,10 @@
+
+<?php
+ if(!empty($_POST)) {
+    var_dump($_POST);
+ }
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
     <head>
