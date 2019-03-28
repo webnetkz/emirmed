@@ -18,6 +18,18 @@ div#all {
     height: 100%;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+/* END CORE STYLE */
+
+/* PHONE STYLE */
+
 div.phone {
     position: fixed;
     height: 4em;
@@ -58,6 +70,44 @@ img.phone_icon {
         transform: rotate(-10deg) scale(0.9);
     }
 }
+
+form#formPhone {
+    position: fixed;
+    top: 5em;
+    left: -1em;
+    height: 240px;
+    width: 300px;
+    background-color: rgba(22, 255, 22, 0.8);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+input.inpPhone {
+    display: block;
+    width: 80%;
+    margin-top: 1em;
+    margin-left: 10%;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    border: 0;
+    font-size: 1.5em;
+    padding: 0.3em;
+}
+
+input.phoneBtn {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(22, 240, 0), rgb(0, 255, 0));
+    box-shadow: 1px 2px 5px rgb(0, 0, 0); 
+}
+
+input.phoneBtn:hover {
+    box-shadow: none;
+}
+
+/* END PHONE STYLE */
+
 /* HEADER STYLE*/
 
 header {
@@ -156,6 +206,7 @@ a.footerMenuItem {
     display: inline;
     color: rgb(255, 255 ,255);
     text-decoration: none;
+    font-weight: 700;
 }
 
 a.footerMenuItem:hover {

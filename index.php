@@ -24,10 +24,6 @@
 
     <body>
 
-        <div class="phone">
-            <img src="/public/img/phone-call.svg" alt="pnone icon" class="phone_icon">
-        </div>
-
         <div id="all">
 
             <header>
@@ -143,6 +139,15 @@
 
         </div> <!-- END DIV #ALL-->
 
+        <div class="phone" onclick="handlerForm();">
+            <img src="/public/img/phone-call.svg" alt="pnone icon" class="phone_icon">
+        </div>
+
+        <form action="index.php" method="POST" class="hidden" id="formPhone">
+            <input type="text" autocomplete="off" class="inpPhone" placeholder="Ваше имя" name="nameInp">
+            <input type="text" autocomplete="off" class="inpPhone" placeholder="номер телефона" name="phoneInp">
+            <input type="submit" value="заказать звонок" class="inpPhone phoneBtn" name="btnInp">
+        </form>
 
         <script>
              // Проверка на поддержку service worker
@@ -152,6 +157,30 @@
                     .then(function() { console.log("Service Worker Registered"); });
             }
         </script>
+        <script>
+            // PHONE FORM FUNCTION VISIBLE AND HIDDEN
+            function handlerForm() {
+                var form = document.querySelector('#formPhone');
+                var formClass = form.getAttribute('class');
+
+                switch(formClass) {
+                    case 'hidden':
+                    form.setAttribute('class', 'visible');
+                    break;
+
+                    case 'visible':
+                    form.setAttribute('class', 'hidden');
+                    break;
+                }
+            }
+
+            setInterval(
+                `var form = document.querySelector('.phone');
+                form.setAttribute('onclick', 'handlerForm();');`
+            ,500
+            );
+        </script>
         <script src="/public/scripts/main.js"></script>
     </body>
 </html>
+
