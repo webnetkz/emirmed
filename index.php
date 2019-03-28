@@ -24,6 +24,10 @@
 
     <body>
 
+        <div class="phone">
+
+        </div>
+
         <div id="all">
 
             <header>
