@@ -25,7 +25,7 @@
     <body>
 
         <div class="phone">
-
+            <img src="/public/img/phone-call.svg" alt="pnone icon" class="phone_icon">
         </div>
 
         <div id="all">

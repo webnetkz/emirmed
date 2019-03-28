@@ -21,13 +21,34 @@ div#all {
 div.phone {
     position: fixed;
     height: 4em;
-    width: 4em;
-    top: 70%;
+    width: 5em;
+    top: 50%;
     left: 0;
     background-color: rgb(0, 200, 0);
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
     box-shadow: 0 0 20px rgb(77, 77, 77);
+}
+
+img.phone_icon {
+    height: 4em;
+    margin-left: 1em;
+    transition-duration: 300ms; 
+    animation: phone_gap 1s infinite;
+}
+
+@keyframes phone_gap{
+    0% {
+        transform: rotate(1deg);
+    }
+
+    50% {
+        transform: rotate(50deg);
+    }
+
+    100% {
+        transform: rotate(1deg);
+    }
 }
 /* HEADER STYLE*/
 
