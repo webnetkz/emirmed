@@ -104,6 +104,7 @@ input.phoneBtn {
 
 input.phoneBtn:hover {
     box-shadow: none;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 /* END PHONE STYLE */
@@ -269,4 +270,5 @@ hr.footer {
 /* STYLE FOR CONTACT*/
 iframe {
     width: 100%;
+    height: 100%;
 }
