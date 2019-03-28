@@ -87,6 +87,43 @@
                     <div id="footerStart">
                             <h3 class="contactHeader">Навигация по сайту:</h3>
                         <hr class="footer">
+                        <ul class="menuFooter">
+                            <li>
+                                <a href="#" class="footerMenuItem">
+                                    Главная
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/uslugi.php" class="footerMenuItem">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/price.php" class="footerMenuItem">
+                                    Цены
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/doctors.php" class="footerMenuItem">
+                                    Врачи
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/clinik.php" class="footerMenuItem">
+                                    Клиника
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/news.php" class="footerMenuItem">
+                                    Новости
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/contact.php" class="footerMenuItem">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                 <a href="#">

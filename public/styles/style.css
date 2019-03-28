@@ -39,7 +39,7 @@ img.phone_icon {
 
 @keyframes phone_gap{
     0% {
-        transform: rotate(1deg) scale(0.9);
+        transform: rotate(-10deg) scale(0.9);
     }
 
     25% {
@@ -55,7 +55,7 @@ img.phone_icon {
     }
 
     100% {
-        transform: rotate(1deg) scale(0.9);
+        transform: rotate(-10deg) scale(0.9);
     }
 }
 /* HEADER STYLE*/
@@ -141,17 +141,25 @@ footer {
 
 ul.menuFooter {
     display: inline-block;
+    width: 100%;
     list-style: none;
     margin-left: 1em;
-}
-
-a.footerMenuItem {
-    color: rgb(255, 255 ,255);
+    margin-top: 1.5em;
 }
 
 ul.menuFooter > li {
     display: inline;
-    line-height: 6em;
+    margin-left: 10px;
+}
+
+a.footerMenuItem {
+    display: inline;
+    color: rgb(255, 255 ,255);
+    text-decoration: none;
+}
+
+a.footerMenuItem:hover {
+    color: rgb(22, 255, 22);
 }
 
 p.date {
@@ -164,6 +172,7 @@ p.date {
 }
     
 a.indexLink {
+    display: inline;
     text-decoration: none;
     color: rgb(0, 255, 0);
 }
@@ -196,6 +205,7 @@ div#footerEnd {
 h3.contactHeader {
     font-size: 0.8em;
     text-align: center;
+    margin-bottom: 0.5em;
 }
 
 hr.footer {
