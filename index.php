@@ -85,6 +85,17 @@
 
             <div id="content">
 
+                <div class="allIcons">
+                    <img src="/public/img/icons/bed.svg" alt="icons" class="iconIndex">                        
+                    <img src="/public/img/icons/virus.svg" alt="icons" class="iconIndex">                        
+                    <img src="/public/img/icons/baby.svg" alt="icons" class="iconIndex">
+                    <img src="/public/img/icons/kidney.svg" alt="icons" class="iconIndex">
+                    <img src="/public/img/icons/ear.svg" alt="icons" class="iconIndex">
+                    <img src="/public/img/icons/heartbeat.svg" alt="icons" class="iconIndex">
+                    <img src="/public/img/icons/flask.svg" alt="icons" class="iconIndex">
+                    <img src="/public/img/icons/donor.svg" alt="icons" class="iconIndex">
+                </div>
+
             </div>
 
             <footer>
