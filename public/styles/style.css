@@ -98,11 +98,11 @@ input.inpPhone {
     border: 0;
     font-size: 1.5em;
     padding: 0.3em;
+    transition-duration: 600ms;
 }
 
 input.inpPhone:focus {
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(22, 255, 22);
+    background-color: rgb(32, 255, 32);
     color: rgb(255, 255, 255);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
@@ -276,6 +276,24 @@ h3.contactHeader {
 hr.footer {
     border-radius: 50%;
     border-block-end-color: green;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.6);
+}
+
+div.workTime {
+    display: inline;
+    position: fixed;
+    right: -60px;
+    top: 50%;
+    transform: rotate(-90deg);
+    background: linear-gradient(to left, rgb(22, 240, 22), rgb(0, 200, 0));
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.workTime > p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 1px rgb(0, 0, 0);
 }
 
 /* STYLE FOR CONTACT*/

@@ -156,6 +156,10 @@
             <input type="submit" value="заказать звонок" class="inpPhone phoneBtn" name="btnInp">
         </form>
 
+        <div class="workTime">
+            <p>Круглосуточно 24/7</p>
+        </div>
+
         <script>
              // Проверка на поддержку service worker
             if('serviceWorker' in navigator) {
