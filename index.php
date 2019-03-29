@@ -73,6 +73,8 @@
                     </li>
                 </ul>
 
+                <p class="numberPhone">+7 707 555 05 78</p>    
+
                 <div class="blockLogo">
                     <a href="#">
                         <img src="/public/img/logoEmirmed.png" alt="logotype for Emirmed" class="logotype">
