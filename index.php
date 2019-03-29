@@ -150,7 +150,7 @@
             <img src="/public/img/phone-call.svg" alt="pnone icon" class="phone_icon">
         </div>
 
-        <form action="index.php" method="POST" class="hidden" id="formPhone">
+        <form action="index.php" method="POST" class="hiddenForm" id="formPhone">
             <input type="text" autocomplete="off" class="inpPhone" placeholder="Ваше имя" name="nameInp">
             <input type="text" autocomplete="off" class="inpPhone" placeholder="номер телефона" name="phoneInp">
             <input type="submit" value="заказать звонок" class="inpPhone phoneBtn" name="btnInp">
@@ -171,12 +171,12 @@
                 var formClass = form.getAttribute('class');
 
                 switch(formClass) {
-                    case 'hidden':
-                    form.setAttribute('class', 'visible');
+                    case 'hiddenForm':
+                    form.setAttribute('class', 'visibleForm');
                     break;
 
-                    case 'visible':
-                    form.setAttribute('class', 'hidden');
+                    case 'visibleForm':
+                    form.setAttribute('class', 'hiddenForm');
                     break;
                 }
             }
