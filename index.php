@@ -85,16 +85,6 @@
 
             <div id="content">
 
-                <div class="allIcons">
-                    <img src="/public/img/icons/bed.svg" alt="icons" class="iconIndex" title="Услуги стационара">                        
-                    <img src="/public/img/icons/virus.svg" alt="icons" class="iconIndex" title="Венерология">                        
-                    <img src="/public/img/icons/baby.svg" alt="icons" class="iconIndex" title="Патронаж ребенка">
-                    <img src="/public/img/icons/kidney.svg" alt="icons" class="iconIndex" title="Урология">
-                    <img src="/public/img/icons/ear.svg" alt="icons" class="iconIndex" title="ЛОР">
-                    <img src="/public/img/icons/heartbeat.svg" alt="icons" class="iconIndex" title="Кардиология">
-                    <img src="/public/img/icons/flask.svg" alt="icons" class="iconIndex" title="Анализы">
-                    <img src="/public/img/icons/donor.svg" alt="icons" class="iconIndex" title="Медицинская документация">
-                </div>
 
             </div>
 
