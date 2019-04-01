@@ -94,7 +94,6 @@
                     <div class="decoration7"></div>
                     <div class="decoration8"></div>
                    
-                
             </div>
 
             <footer>

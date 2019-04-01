@@ -234,6 +234,7 @@ div.decoration4 {
     background-color: rgb(255, 0 , 0);
     z-index: -2;
     box-shadow: 0 0 10px rgb(0, 0, 0);
+    animation: decoration 1.3s infinite;
 }
 
 div.decoration5 {
@@ -246,6 +247,7 @@ div.decoration5 {
     background-color: rgb(255, 0 , 0);
     z-index: -2;
     box-shadow: 0 0 10px rgb(0, 0, 0);
+    animation: decoration 1.3s infinite;
 }
 
 div.decoration6 {
@@ -258,6 +260,7 @@ div.decoration6 {
     background-color: rgb(255, 0 , 0);
     z-index: -2;
     box-shadow: 0 0 10px rgb(0, 0, 0);
+    animation: decoration 1.3s infinite;
 }
 
 div.decoration7 {
@@ -270,6 +273,7 @@ div.decoration7 {
     background-color: rgb(255, 0 , 0);
     z-index: -2;
     box-shadow: 0 0 10px rgb(0, 0, 0);
+    animation: decoration 1.3s infinite;
 }
 
 div.decoration8 {
@@ -282,6 +286,21 @@ div.decoration8 {
     background-color: rgb(255, 0 , 0);
     z-index: -2;
     box-shadow: 0 0 10px rgb(0, 0, 0);
+    animation: decoration 1.3s infinite;
+}
+
+@keyframes decoration {
+    0% {
+        transform: scale(1) skew(40deg);
+    }
+
+    50% {
+        transform: scale(0.98) skew(40deg);
+    }
+
+    100% {
+        transform: scale(1) skew(40deg);
+    }
 }
 
 /* FOOTER STYLE*/
