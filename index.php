@@ -84,15 +84,8 @@
             </header>
 
             <div id="content">
+                <img src="/public/img/heart.png" alt="heart icon" style="position: absolute; top: 20%; left: 40%;" id="heart">
 
-                <div class="icons_animation">
-                    <img src="/public/img/icons_animation/heart.png" alt="heart icon" class="ani_items" style="position: absolute; top: 20%; left: 40%;" id="heart">
-                    <img src="/public/img/icons_animation/flask.png" alt="flask icon" class="ani_items" style="position: absolute; top: 40%; left: 10%;" id="flask">
-                    <img src="/public/img/icons_animation/box.png" alt="box icon" class="ani_items" style="position: absolute; top: 80%; left: 30%;" id="box">
-                    <img src="/public/img/icons_animation/book.png" alt="book icon" class="ani_items" style="position: absolute; top: 50%; left: 60%;" id="book">
-                    <img src="/public/img/icons_animation/ear.png" alt="ear icon" class="ani_items" style="position: absolute; top: 60%; left: 20%; height: 10%;" id="ear">
-                    <img src="/public/img/icons_animation/set.png" alt="set icon" class="ani_items" style="position: absolute; top: 70%; left: 70%;" id="set">
-                </div>
                 <pre>
                 
                 
