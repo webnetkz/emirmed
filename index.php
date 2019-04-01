@@ -87,7 +87,10 @@
 
                 <div class="decoration1"></div>
                 <div class="decoration2"></div>
-                <div></div>
+                <div class="decoration3"></div>
+                    <div class="decoration4"></div>
+                    <div class="decoration5"></div>
+                    <div class="decoration6"></div>
                    
                 
             </div>
