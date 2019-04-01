@@ -200,7 +200,9 @@ div#content {
 }
 
 img#heart {
+    position: fixed;
     opacity: 0.1;
+    z-index: -1;
     animation: heart_beat 1s infinite;
 }
 
