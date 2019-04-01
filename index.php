@@ -73,7 +73,7 @@
                     </li>
                 </ul>
 
-                <p class="numberPhone">+7 707 555 05 78</p>    
+                <p class="numberPhone">+7 707 555-05-78 / +7 727 354-46-86</p>    
 
                 <div class="blockLogo">
                     <a href="#">
