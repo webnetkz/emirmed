@@ -84,7 +84,6 @@
             </header>
 
             <div id="content">
-                <img src="/public/img/heart.png" alt="heart icon" style="position: absolute; top: 20%; left: 40%;" id="heart">
 
                 <pre>
                 
