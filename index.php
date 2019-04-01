@@ -85,6 +85,8 @@
 
             <div id="content">
 
+                <div class="slider"></div>
+
                 <div class="decoration1"></div>
                 <div class="decoration2"></div>
                 <div class="decoration3"></div>

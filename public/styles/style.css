@@ -24,7 +24,7 @@ div#all {
 
 .hiddenForm {
     visibility: hidden;
-    transform: scale(0.01);
+    transform: scale(0);
 }
 
 .visibleForm {
@@ -187,19 +187,31 @@ p.numberPhone {
 }
 
 /* CONTENT STYLE*/
-    
+
+div.slider {
+    position: fixed;
+    top: 5%;
+    left: 30%;
+    height: 100%;
+    width: 50%;
+    background: url(/public/img/16.jpg) no-repeat;
+    background-size: 100%;
+    z-index: -12;
+}
+
 div#content {
     height: 100%;
     flex: 1 0 auto;
     text-align: center;
-    margin-top: 4em;
+    background-color: rgb(232, 246, 255);
+    z-index: -88;
 }
 
 div.decoration1 {
     position: fixed;
     height: 100%;
     width: 20%;
-    background-color: rgba(0, 255, 0, 0.9);
+    background-color: rgba(0, 255, 0, 1);
     transform: skew(40deg);
     z-index: -3;
 }
