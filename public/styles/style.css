@@ -290,6 +290,7 @@ div.decoration8 {
     animation: decoration 1.3s infinite;
 }
 
+
 @keyframes decoration {
     0% {
         transform: scale(1) skew(40deg);
