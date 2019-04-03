@@ -188,17 +188,6 @@ p.numberPhone {
 
 /* CONTENT STYLE*/
 
-div.slider {
-    position: fixed;
-    top: 5%;
-    left: 30%;
-    height: 100%;
-    width: 50%;
-    background: url(/public/img/16.jpg) no-repeat;
-    background-size: 100%;
-    z-index: -12;
-}
-
 div#content {
     height: 100%;
     flex: 1 0 auto;
@@ -208,7 +197,7 @@ div#content {
 }
 
 div.decoration1 {
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 20%;
     background-color: rgba(0, 255, 0, 1);
@@ -217,7 +206,7 @@ div.decoration1 {
 }
 
 div.decoration2 {
-    position: fixed;
+    position: absolute;
     height: 100%;
     left: 5%;
     width: 5%;
@@ -227,7 +216,7 @@ div.decoration2 {
 }
 
 div.decoration3 {
-    position: fixed;
+    position: absolute;
     left: 30%;
     top: 90%;
     height: 15%;
@@ -237,7 +226,7 @@ div.decoration3 {
 }
 
 div.decoration4 {
-    position: fixed;
+    position: absolute;
     top: 80%;
     left: 20%;
     height: 15%;
@@ -250,7 +239,7 @@ div.decoration4 {
 }
 
 div.decoration5 {
-    position: fixed;
+    position: absolute;
     top: 70%;
     left: 5%;
     height: 10%;
@@ -263,7 +252,7 @@ div.decoration5 {
 }
 
 div.decoration6 {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 5%;
     height: 10%;
@@ -276,7 +265,7 @@ div.decoration6 {
 }
 
 div.decoration7 {
-    position: fixed;
+    position: absolute;
     top: 88%;
     left: 75%;
     height: 7%;
@@ -289,7 +278,7 @@ div.decoration7 {
 }
 
 div.decoration8 {
-    position: fixed;
+    position: absolute;
     top: 88%;
     left: 45%;
     height: 20%;
