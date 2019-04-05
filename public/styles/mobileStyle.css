@@ -24,4 +24,10 @@
     #footerEnd {
         visibility: hidden;
     }
+    
+    form#formPhone {
+        left: 5%;
+        height: 35%;
+        width: 90%;
+    }
 }
